@@ -1,0 +1,182 @@
+1. Introduction to Python
+2. Interactive Shells
+3. Hello World
+4. Variables & Types
+5. Conditions
+6. Loops
+7. Functions
+8. Lists & Dictionaries
+9. pydev setup in eclipse
+
+Introduction to Python
+-> Powerful High level Programming language
+-> Supports multiple programming paradigms (Object Oriented, Functional/Procedural Programming)
+-> Used to develop Web Applications, Games(http://pygame.org/), Web Frameworks, UI Frameworks, Scientific Applications, Search Engine, Automate Scripting
+-> Created by Guido van Rossum in 1991
+-> Named after the television show Monty Python's Flying Circus
+-> Can be used as Scripting Language
+
+Applications
+-> Blender, Openshot, PiTiVi,Dropbox, youtube -dl, Django, Astropy, BioPython, Pathomx
+
+Interactive Shell
+-> Its an Interpreter for scripts that you can run from the command line
+-> Useful for debugging, quick hacking, and testing
+-> evaluate arbitrary Python expressions, including any basic arithmetic expression
+-> execute arbitrary Python statements
+-> Check Python Version, Where its installed.
+-> Can use python as Calculator
+
+Hello World
+-> Program
+
+Variables & Types
+-> Its statically typed language
+-> No need to declare type, Every variable is object 
+
+Numbers
+-> Supports 2 types of nos -> Integer & float
+firstNo = 7
+weight=17.2
+weight=float(17) => 17.0
+
+Boolean
+True/False
+a = True
+b = False
+
+Strings
+-> Given within single/quotes
+-> Easy to include apostrophes within the string when use double quotes otherwise need to use Escape Characters
+strSession='Python Session by FSMK'
+strSession="Python Session by FSMK"
+-> Characters in the string can be accessed using index
+seventhChar=strSession[7]
+
+String Methods
+len()
+print len(strSession)
+lower()
+print strSesssion.lower()
+upper()
+print strSesssion.upper()
+str()
+Convert Non-Strings into Strings
+Find type
+type(strSession)
+
+String Printing Method
+
+Operators
+Arithmetic Operator
+Comparators
+    Equal to (==)
+    Not equal to (!=)
+    Less than (<)
+    Less than or equal to (<=)
+    Greater than (>)
+    Greater than or equal to (>=)
+
+Eg:
+>>> print 5>3
+True
+>>> print 5<3
+False
+>>> print 2==3
+False
+
+
+Boolean Operator
+and 
+or
+not
+
+Eg:
+>>> print 5<4 and 4==4
+False
+>>> print 5>4 and 4==4
+True
+>>> print 5<4 or 4==4
+True
+>>> print not True
+False
+
+Preferences:
+    not is evaluated first;
+    and is evaluated next;
+    or is evaluated last.
+
+'in' Operator
+'is' Operator
+
+Conditional Statment
+if
+if/else
+if/elif/else
+
+
+Eg:
+if
+if 5>4:
+    print "5 is greater than 4"
+
+Output
+5 is greater than 4
+
+if/else
+if 5<4:
+    print "5 is less than 4"
+else:
+    print "5 is greater than 4"
+
+
+if/elif/else
+if 5<4:
+    print "5 is less than 4"
+elif 5==4:
+    print "5 is equal to 4"
+else:
+    print "5 is greater than 4"
+
+Output
+5 is greater than 4
+
+
+Switch Statement
+
+
+
+Loop
+for
+while
+break & Continue
+
+
+
+Lists & Dictionaries
+Lists
+-> Similar to Array
+-> Its a datatype used to store a collection of different pieces of information as a sequence under a single variable name
+-> Contain any Type of Variable 
+-> Contain as many variables as user wish
+
+Syntax
+list_name = [1, 2]
+
+list_name = []
+list_name.append(1)
+list_name.append(2)
+
+Display List Values
+print list_name #Displays all the items in the list
+Output
+[1, 2]
+
+Display list item using index
+print list_name[1] 
+Output
+2
+
+
+
+
